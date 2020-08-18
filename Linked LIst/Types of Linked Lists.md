@@ -2,9 +2,9 @@
 
 There are three common types of Linked List.
 
-1. [Singly Linked List](https://www.programiz.com/dsa/linked-list-types#singly)
-2. [Doubly Linked List](https://www.programiz.com/dsa/linked-list-types#doubly)
-3. [Circular Linked List](https://www.programiz.com/dsa/linked-list-types#circular)
+1. Singly Linked List
+2. Doubly Linked List
+3. Circular Linked List
 
 ------
 
