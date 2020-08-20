@@ -2,7 +2,9 @@
 
 A linked list data structure includes a series of connected nodes. Here, each node store the data and the address of the next node. For example,
 
-![linkedlist data structure](https://cdn.programiz.com/sites/tutorial2program/files/linked-list-concept.png)You have to start somewhere, so we give the address of the first node a special name called **HEAD**.
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/linked-list-concept.png)" />
+
+You have to start somewhere, so we give the address of the first node a special name called **HEAD**.
 
 Also, the last node in the linked list can be identified because its next portion points to **NULL**.
 
