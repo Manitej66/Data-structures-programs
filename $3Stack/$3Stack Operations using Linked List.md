@@ -1,6 +1,8 @@
 # Stack Operations using Linked List
 
-![stack implementation using linked list](http://www.btechsmartclass.com/data_structures/ds_images/stack_implementation_using_linked_list.png)
+
+
+<img src='http://www.btechsmartclass.com/data_structures/ds_images/stack_implementation_using_linked_list.png' alt="stack implementation using linked list"/>
 
 In the above example, the last inserted node is 99 and the first inserted node is 25. The order of elements inserted is 25, 32,50 and 99.
 
@@ -47,7 +49,7 @@ We can use the following steps to display the elements (nodes) of a stack...
 
 # Implementation of Stack Using Linked List
 
-```c
+```cpp
 class node
 {
 	int data;
