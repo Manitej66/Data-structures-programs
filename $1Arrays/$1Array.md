@@ -23,7 +23,7 @@ In C++, each element in an array is associated with a number. The number is know
 array[index];
 ```
 
-![C++ Array Declaration](https://cdn.programiz.com/sites/tutorial2program/files/cpp-array-declaration.png)
+<img src='https://cdn.programiz.com/sites/tutorial2program/files/cpp-array-declaration.png' alt="C++ Array Declaration"/>
 
 ## C++ Array Initialization
 
@@ -34,7 +34,7 @@ In C++, it's possible to initialize an array during declaration. For example,
 int x[6] = {19, 10, 8, 17, 9, 15};
 ```
 
-![C++ Array Initialization](https://cdn.programiz.com/sites/tutorial2program/files/cpp-array-initialization.png)
+<img src='https://cdn.programiz.com/sites/tutorial2program/files/cpp-array-initialization.png' alt="C++ Array Initialization"/>
 
 
 
