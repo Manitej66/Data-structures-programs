@@ -1,6 +1,6 @@
 # Linked List Operations: Traverse, Insert and Delete
 
-Now that you have got an understanding of the basic concepts behind [linked list](https://www.programiz.com/data-classures/linked-list) and their [types](https://www.programiz.com/data-classures/linked-list-types), it's time to dive into the common operations that can be performed.
+Now that you have got an understanding of the basic concepts behind linked list and their types, it's time to dive into the common operations that can be performed.
 
 Two important points to remember:
 
