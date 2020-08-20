@@ -97,4 +97,4 @@ Space Complexity: O(n)
 - Dynamic memory allocation
 - Implemented in stack and queue
 - In **undo** functionality of softwares
-- Hash tables, Graphs
+- Hash tables, Graphs.
