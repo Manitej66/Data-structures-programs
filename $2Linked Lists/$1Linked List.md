@@ -78,7 +78,7 @@ int main() {
 
 In just a few steps, we have created a simple linked list with three nodes.
 
-![representing linked list by connecting each node with next node using address of next node](https://cdn.programiz.com/sites/tutorial2program/files/linked-list-with-data.png)
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/linked-list-with-data.png" alt="representing linked list by connecting each node with next node using address of next node"  />
 
 ## Linked List Complexity
 
