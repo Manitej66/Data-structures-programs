@@ -11,9 +11,9 @@ Think about the things you can do with such a pile of plates
 
 In programming terms, putting an item on top of the stack is called **"push"** and removing an item is called **"pop"**.
 
-![represent the lifo principle by using push and pop operation](https://cdn.programiz.com/sites/tutorial2program/files/stack.png)
+<img src='https://cdn.programiz.com/sites/tutorial2program/files/stack.png' alt="represent the lifo principle by using push and pop operation"/>
 
-​																			**Stack Push and Pop Operations**
+​											                                      **Stack Push and Pop Operations**
 
 In the above image, although item 2 was kept last, it was removed first - so it follows **the Last In First Out(LIFO)** principle.
 
@@ -46,7 +46,9 @@ The operations work as follows:
 5. Before pushing, we check if the stack is already full
 6. Before popping, we check if the stack is already empty
 
-![adding elements to the top of stack and removing elements from the top of stack](https://cdn.programiz.com/sites/tutorial2program/files/stack-operations.png)                                                                                    
+![adding elements to the top of stack and removing elements from the top of stack](https://cdn.programiz.com/sites/tutorial2program/files/stack-operations.png)
+
+​                                                                                    
 
 ​																			**Working of Stack Data Structure**
 
