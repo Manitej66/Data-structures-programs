@@ -12,7 +12,7 @@ There are three common types of Linked List.
 
 It is the most common. Each node has data and a pointer to the next node.
 
-![singly linked list](https://cdn.programiz.com/sites/tutorial2program/files/linked-list-concept_0.png)Singly linked list
+<img src='https://cdn.programiz.com/sites/tutorial2program/files/linked-list-concept_0.png' alt="singly linked list"/>																										**Singly linked list**
 
 Node is represented as:
 
@@ -33,9 +33,9 @@ class node *two = NULL;
 class node *three = NULL;
 
 /* Allocate memory */
-one = malloc(sizeof(class node));
-two = malloc(sizeof(class node));
-three = malloc(sizeof(class node));
+one = new node;
+two = new node;
+three = new node;
 
 /* Assign data values */
 one->data = 1;
@@ -57,7 +57,7 @@ head = one;
 
 We add a pointer to the previous node in a doubly-linked list. Thus, we can go in either direction: forward or backward.
 
-![doubly linked list](https://cdn.programiz.com/sites/tutorial2program/files/doubly-linked-list-concept.png)Doubly linked list
+<img src='https://cdn.programiz.com/sites/tutorial2program/files/doubly-linked-list-concept.png' alt="doubly linked list"/>																									**Doubly linked list**
 
 
 
@@ -81,9 +81,9 @@ class node *two = NULL;
 class node *three = NULL;
 
 /* Allocate memory */
-one = malloc(sizeof(class node));
-two = malloc(sizeof(class node));
-three = malloc(sizeof(class node));
+one = new node;
+two = new node;
+three = new node;
 
 /* Assign data values */
 one->data = 1;
@@ -110,7 +110,9 @@ head = one;
 
 A circular linked list is a variation of a linked list in which the last element is linked to the first element. This forms a circular loop.
 
-![circular linked list](https://cdn.programiz.com/sites/tutorial2program/files/circular-linked-list.png)Circular linked list
+<img src='https://cdn.programiz.com/sites/tutorial2program/files/circular-linked-list.png' alt="circular linked list"/>
+
+Circular linked list
 
 A circular linked list can be either singly linked or doubly linked.
 
@@ -127,9 +129,9 @@ class node *two = NULL;
 class node *three = NULL;
 
 /* Allocate memory */
-one = malloc(sizeof(class node));
-two = malloc(sizeof(class node));
-three = malloc(sizeof(class node));
+one = new node;
+two = new node;
+three = new node;
 
 /* Assign data values */
 one->data = 1;
