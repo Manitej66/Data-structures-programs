@@ -1,90 +1,101 @@
+## Implementation of Stack Using Arrays
+
+A stack is an abstract data structure that contains a collection of elements. Stack implements the LIFO mechanism i.e. the element that is pushed at the end is popped out first. Some of the principle operations in the stack are −
+
+- Push - This adds a data value to the top of the stack.
+- Pop - This removes the data value on top of the stack
+- Peek - This returns the top data value of the stack
+
+A program that implements a stack using array is given as follows.
+
 ```cpp
-// Stack implementation in C++
-
-#include <stdlib.h>
 #include <iostream>
-
 using namespace std;
-
-#define MAX 10
-int size = 0;
-
-// Creating a stack
-struct stack {
-  int items[MAX];
-  int top;
-};
-typedef struct stack st;
-
-void createEmptyStack(st *s) {
-  s->top = -1;
+int stack[100], n=100, top=-1;
+void push(int val) {
+   if(top>=n-1)
+   cout<<"Stack Overflow"<<endl;
+   else {
+      top++;
+      stack[top]=val;
+   }
 }
-
-// Check if the stack is full
-int isfull(st *s) {
-  if (s->top == MAX - 1)
-    return 1;
-  else
-    return 0;
+void pop() {
+   if(top<=-1)
+   cout<<"Stack Underflow"<<endl;
+   else {
+      cout<<"The popped element is "<< stack[top] <<endl;
+      top--;
+   }
 }
-
-// Check if the stack is empty
-int isempty(st *s) {
-  if (s->top == -1)
-    return 1;
-  else
-    return 0;
+void display() {
+   if(top>=0) {
+      cout<<"Stack elements are:";
+      for(int i=top; i>=0; i--)
+      cout<<stack[i]<<" ";
+      cout<<endl;
+   } else
+   cout<<"Stack is empty";
 }
-
-// Add elements into stack
-void push(st *s, int newitem) {
-  if (isfull(s)) {
-    printf("STACK FULL");
-  } else {
-    s->top++;
-    s->items[s->top] = newitem;
-  }
-  size++;
-}
-
-// Remove element from stack
-void pop(st *s) {
-  if (isempty(s)) {
-    printf("\n STACK EMPTY \n");
-  } else {
-    printf("Item popped= %d", s->items[s->top]);
-    s->top--;
-  }
-  size--;
-  cout << endl;
-}
-
-// Print elements of stack
-void printStack(st *s) {
-  printf("Stack: ");
-  for (int i = 0; i < size; i++) {
-    cout << s->items[i] << " ";
-  }
-  cout << endl;
-}
-
-// Driver code
 int main() {
-  int ch;
-  st *s = (st *)malloc(sizeof(st));
-
-  createEmptyStack(s);
-
-  push(s, 1);
-  push(s, 2);
-  push(s, 3);
-  push(s, 4);
-
-  printStack(s);
-
-  pop(s);
-
-  cout << "\nAfter popping out\n";
-  printStack(s);
+   int ch, val;
+   cout<<"1) Push in stack"<<endl;
+   cout<<"2) Pop from stack"<<endl;
+   cout<<"3) Display stack"<<endl;
+   cout<<"4) Exit"<<endl;
+   do {
+      cout<<"Enter choice: "<<endl;
+      cin>>ch;
+      switch(ch) {
+         case 1: {
+            cout<<"Enter value to be pushed:"<<endl;
+            cin>>val;
+            push(val);
+            break;
+         }
+         case 2: {
+            pop();
+            break;
+         }
+         case 3: {
+            display();
+            break;
+         }
+         case 4: {
+            cout<<"Exit"<<endl;
+            break;
+         }
+         default: {
+            cout<<"Invalid Choice"<<endl;
+         }
+      }
+   }while(ch!=4);
+   return 0;
 }
+```
+
+## Output
+
+```
+1) Push in stack
+2) Pop from stack
+3) Display stack
+4) Exit
+
+Enter choice: 1
+Enter value to be pushed: 2
+Enter choice: 1
+Enter value to be pushed: 6
+Enter choice: 1
+Enter value to be pushed: 8
+Enter choice: 1
+Enter value to be pushed: 7
+Enter choice: 2
+The popped element is 7
+Enter choice: 3
+Stack elements are:8 6 2
+Enter choice: 5
+Invalid Choice
+Enter choice: 4
+Exit
 ```
