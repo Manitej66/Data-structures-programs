@@ -46,27 +46,11 @@ The operations work as follows:
 5. Before pushing, we check if the stack is already full
 6. Before popping, we check if the stack is already empty
 
-![adding elements to the top of stack and removing elements from the top of stack](https://cdn.programiz.com/sites/tutorial2program/files/stack-operations.png)
 
-​                                                                                    
 
-​																			**Working of Stack Data Structure**
+<img src='https://cdn.programiz.com/sites/tutorial2program/files/stack-operations.png' alt="adding elements to the top of stack and removing elements from the top of stack"/>
 
-The operations work as follows:
-
-1. A pointer called TOP is used to keep track of the top element in the stack.
-
-2. When initializing the stack, we set its value to -1 so that we can check if the stack is empty by comparing `TOP == -1`.
-
-3. On pushing an element, we increase the value of TOP and place the new element in the position pointed to by TOP.
-
-4. On popping an element, we return the element pointed to by TOP and reduce its value.
-
-5. Before pushing, we check if the stack is already full
-
-6. Before popping, we check if the stack is already empty
-
-   ![adding elements to the top of stack and removing elements from the top of stack](https://cdn.programiz.com/sites/tutorial2program/files/stack-operations.png)																	          **Working of Stack Data Structure**
+​                                        														**Working of Stack Data Structure**															
 
 
 
